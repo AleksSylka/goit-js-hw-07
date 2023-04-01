@@ -34,5 +34,5 @@ function onClick(event) {
             instance.close();
         }
     }
-    document.addEventListener("keyup", onEscClose, { once: instance.visible() });
+    document.addEventListener("keydown", onEscClose, { once: instance.visible() });
 }
